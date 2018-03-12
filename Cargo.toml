@@ -1,0 +1,12 @@
+[package]
+name = "machinelearning"
+version = "0.1.0"
+authors = ["Jules <dejardin@hotmail.co.uk>"]
+
+[dependencies]
+rand = "0.4"
+nalgebra = "0.14.0"
+
+[lib]
+name = "unity_rust" # the name of the library that will be generated
+crate-type = ["dylib"]
